@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariam Ezraidi - Full-Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h3>ME</h3>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Mariam Ezraidi</span>
+                </h1>
+                <h2 class="hero-subtitle">Full-Stack Web Developer</h2>
+                <p class="hero-description">
+                    Building powerful web apps with clean code, one commit at a time. 
+                    Currently studying at YOUCODE and passionate about turning ideas into real applications.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/ezraidimariam" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com/mariam_ezraidii" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:maezraid@gmail.com" class="social-icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-img-container">
+                    <img src="Profil.jpg" alt="Mariam Ezraidi - Full Stack Developer" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm Mariam Ezraidi, a passionate Full-Stack Developer from Morocco 🇲🇦 currently studying at YOUCODE. 
+                        I love turning ideas into real applications using Laravel, PHP, JavaScript, and modern web technologies.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-fire"></i>
+                            <span>I enjoy building real-world projects</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>I love solving problems & debugging</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Currently learning advanced Laravel & software architecture</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>EasyColoc-WebApp</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Blade</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <p>Web application for managing colocation expenses and tasks</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-star"></i> 2</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://github.com/ezraidimariam/EasyColoc-WebApp" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Workplace-Map-Manager</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Web App</span>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <p>WorkSphere – Virtual workplace application for organizing employees on floor plans</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-star"></i> 1</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://github.com/ezraidimariam/Workplace-Map-Manager" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Zoo_Encyclopedie</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Educational</span>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <p>Educational web application for children to discover zoo animals and their habitats</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-star"></i> 1</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://github.com/ezraidimariam/Zoo_Encyclopedie" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Cosmetica</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">E-commerce</span>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <p>Beauty and cosmetics e-commerce platform with product management and shopping cart</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-star"></i> 3</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://github.com/ezraidimariam/Cosmetica" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Responsive Design</span>
+                        <span class="skill-item">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">PHP</span>
+                        <span class="skill-item">Laravel</span>
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">C</span>
+                        <span class="skill-item">RESTful APIs</span>
+                        <span class="skill-item">Database Design</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Methods</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">GitHub</span>
+                        <span class="skill-item">Clean Code</span>
+                        <span class="skill-item">Agile & Scrum</span>
+                        <span class="skill-item">Problem Solving</span>
+                        <span class="skill-item">Software Architecture</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-book"></i> Currently Learning</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Advanced Laravel</span>
+                        <span class="skill-item">Eloquent ORM</span>
+                        <span class="skill-item">Vue.js</span>
+                        <span class="skill-item">Software Architecture</span>
+                        <span class="skill-item">MVC Patterns</span>
+                        <span class="skill-item">API Development</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-heart"></i> Interests & Passions</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Web Development</span>
+                        <span class="skill-item">UI/UX Design</span>
+                        <span class="skill-item">Open Source</span>
+                        <span class="skill-item">Tech Innovation</span>
+                        <span class="skill-item">Coding Challenges</span>
+                        <span class="skill-item">Community Building</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:maezraid@gmail.com">maezraid@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-discord"></i>
+                            <span>merry#4759</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-instagram"></i>
+                            <a href="https://instagram.com/mariam_ezraidii" target="_blank">@mariam_ezraidii</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/ezraidimariam" target="_blank">github.com/ezraidimariam</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Mariam Ezraidi. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/ezraidimariam" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com/mariam_ezraidii" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:maezraid@gmail.com" class="social-icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
